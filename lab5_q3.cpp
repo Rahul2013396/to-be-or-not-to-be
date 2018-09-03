@@ -1,16 +1,21 @@
+//including the library
 #include <iostream>
 using namespace std;
+//function
 int main(){
+	//declaring the variables
 	float a;		
 	cout << "what is the number ?";
 	cin >>  a;
+	// if condition
 	if (a>0){
 	cout<< a << " is positive "; 
 }
-else if (a<0){
+	//else if condition
+	else if (a<0){
 	cout << a<< " is negative";
 }
-else{
+	else{
 	cout << a << " is zero";	
 }
 
